@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+      <Title>Xunit test</Title>
+      <Shortcut>xfact</Shortcut>
+      <Description>Create a Xunit test method with pattern "Given When Then" and, "AAA"</Description>
+      <Author>Nelson Nobre</Author>
+    </Header>
+    <Snippet>
+      <Imports>
+        <Import>
+          <Namespace>Xunit</Namespace>
+        </Import>
+      </Imports>
+      <Code Language="csharp"><![CDATA[[Fact]
+      public void Given_When_Then()
+      {
+          // Arrange
+
+
+          // Act
+
+
+          // Assert
+          throw new System.NotImplementedException();
+      }]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
