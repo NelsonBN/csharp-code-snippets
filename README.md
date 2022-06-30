@@ -2,6 +2,11 @@
 Some code snippets to increase productivity writing code
 
 
+## Custom code snippets in this repository
+Location: `this repository` > `dist`
+- [`xfact`](#custom-snippet-xfact)
+- [`xffact`](#custom-snippet-xffact)
+
 
 ## How to add custom code snippets?
 
@@ -18,7 +23,7 @@ Some code snippets to increase productivity writing code
 
 ## Custom code snippets
 
-### `xfact`
+### `xfact` <a name="custom-snippet-xfact"></a>
 Create a Xunit test method with pattern "Given When Then" and, "AAA"
 
 ```csharp
@@ -36,7 +41,7 @@ public void Given_When_Then()
 }
 ```
 
-### `xffact`
+### `xffact` <a name="custom-snippet-xffact"></a>
 Create a full Xunit test method with pattern "Given When Then", "AAA", "description" and "Trait"
 
 ```csharp
